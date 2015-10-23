@@ -1,0 +1,60 @@
+====================================================
+   From: Clicasso <support@clicasso.fr>
+     To: contact@dg-informatique.com <contact@dg-informatique.com>
+Subject: [CLICASSO.FR] - Paramètres du compte abcs-spain.com
+   Date: 11/20/2012 5:20:28 PM
+====================================================
+ 
+ 
+
+
+Henri THEROL,
+
+Nous vous adressons ci-dessous les paramètres de votre compte abcs-spain.com et nous vous invitons à les conserver et/ou les imprimer.
+
+Nous vous rappelons que vous pouvez gérer l'ensemble de vos services depuis le manager Clicasso : http://www.clicasso.fr/manager/
+
+Votre compte abcs-spain.com utilise la formule Basic-L de Clicasso.
+
+Votre site est hébergé sur le serveur web11.clicasso.com :
+- DNS primaire : web11.clicasso.com
+- DNS secondaire : secondaire.clicasso.com
+
+Tous les fichiers qui doivent être accessibles sur votre site sont à mettre dans le répertoire "/public_html". Le chemin direct peut vous être demandé pour certains scripts php ou cgi. Il s'agit de "/home/abcsspai/domains/abcs-spain.com/public_html/". Votre site est accessible par son nom de domaine ou par l'url du serveur : http://web11.clicasso.com/~abcsspai.
+
+------ Accés FTP ------
+- serveur ftp : web11.clicasso.com
+- login : abcsspai
+- mot de passe : OuGsMu0JAT5AFY
+
+------ Base(s) de données ------
+- gestion de votre (vos) base(s) de données depuis votre panel, rubrique "Gestion Mysql" : http://web11.clicasso.com:2222
+
+------ Messagerie électronique ------
+- gestion de la messagerie depuis votre panel, rubrique "Comptes mails POP3" : http://web11.clicasso.com:2222
+Par défaut l'adresse email abcsspai@abcs-spain.com est créée sur le serveur. Configuration de la messagerie sous outook ou autres :
+- adresse messagerie principale : abcsspai@abcs-spain.com
+- mot de passe messagerie principale : OuGsMu0JAT5AFY
+- nom du compte principal : abcsspai@abcs-spain.com
+- serveur pop3 : mail.abcs-spain.com
+- serveur smtp : mail.abcs-spain.com
+Lorsque vous créez un nouveau compte mail, les paramètres de ce compte s'affichent à l'écran pour vous confirmer la création du compte. Pensez à les imprimer.
+
+------ Répertoire CGI ------
+- Pour installer des CGI vous devez mettre les fichiers dans votre répertoire "/public_html/cgi-bin"
+
+------ Statistiques détaillées ------
+- Pour consulter vos statitiques, vous devez vous rendre sur votre panel : http://web11.clicasso.com:2222
+
+------ Support technique ------
+- Si vous rencontrez un problème au sujet de votre hébergement, vous pouvez contacter le support technique de Clicasso en vous rendant à la rubrique "support" depuis le manager Clicasso : http://www.clicasso.fr/manager/
+- Si vous souhaitez obtenir de l'aide sur DirectAdmin, rendez-vous sur http://www.clicasso.fr/aide/directadmin.php
+- Vous trouverez une aide générale sur notre site http://www.clicasso.fr/aide/
+
+Bien cordialement,
+l'équipe de Clicasso
+http://www.clicasso.fr
+Tél : 0 800 406 800
+
+----------ATTENTION !
+Ce message vous est envoyé par un robot. Merci de ne pas y répondre, aucune réponse ne vous parviendra. Pour toutes questions veuillez contacter le support en vous identfiant sur le site.

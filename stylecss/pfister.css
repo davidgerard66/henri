@@ -1,0 +1,33 @@
+.tomates {  font-family: Arial, Helvetica, sans-serif; color: #000066; font-size: 12px; font-style: normal; font-weight: bold}
+.bordures {  border: thin #B9DFEC solid; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #003399}
+.textepfister { font-family: Arial, Helvetica, sans-serif; color: #000066; font-size: 10px; font-style: normal; font-weight: bold ; text-decoration: none}
+.borduresdroite { border: solid; font-style: normal; font-weight: normal; border-width: 0px thin 0px 0px; border-color: #B9DFEC #006699 #B9DFEC #B9DFEC}
+.textepfisterblanc { font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 12px; font-style: normal; font-weight: bold }
+.textepfister12 { font-family: Arial, Helvetica, sans-serif; color: #000066; font-size: 14px; font-style: normal; font-weight: bold }
+.textepfister14 { font-family: Arial, Helvetica, sans-serif; color: #000066; font-size: 16px; font-style: normal; font-weight: bold }
+.textepfisteritalique { font-family: Arial, Helvetica, sans-serif; color: #000066; font-size: 10px; font-style: italic; font-weight: bold }
+.textepfistervrai12 { font-family: Arial, Helvetica, sans-serif; color: #000066; font-size: 12px; font-style: normal; font-weight: bold }
+.bordureshautbasgrosbleu {  border-color: #000099 #FFFFFF; border-style: solid; border-top-width: thin; border-bottom-width: thin; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: italic; font-weight: bold; color: #000099}
+.bordureshautbasfinbleu { border-color: #FFFFFF #FFFFFF #0099FF; border-style: solid; border-bottom-width: thin; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #0066CC}
+.textetableaudossiers { font-family: Arial, Helvetica, sans-serif; color: #0099ff; font-size: 12px; font-style: normal; font-weight: normal}
+.textepfisterblancitalik { font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 12px; font-style: italic; font-weight: bold }
+.textepfistervert { font-family: Arial, Helvetica, sans-serif; color: #00CC33; font-size: 10px; font-style: normal; font-weight: bold }
+.textepfisterrouge { font-family: Arial, Helvetica, sans-serif; color: #FF0000; font-size: 10px; font-style: normal; font-weight: bold }
+.textepfisterrougegros { font-family: Arial, Helvetica, sans-serif; color: #FF0000; font-size: 12px; font-style: normal; font-weight: bold }
+.textepfisterbleuclair { font-family: Arial, Helvetica, sans-serif; color: #0099FF; font-size: 10px; font-style: normal; font-weight: bold }
+.textesupergros {  font-family: "Times New Roman", Times, serif; font-size: 18px; font-style: normal; font-weight: bold; color: #000099}
+.textepfister11 {
+font-family: Arial, Helvetica, sans-serif; color: #000066; font-size: 11px; font-style: normal; font-weight: bold ; text-decoration: none
+}
+.textepfisterblancpetit {
+font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 10px; font-style: normal; font-weight: normal
+}
+.textepfister16 {
+font-family: Arial, Helvetica, sans-serif; color: #000066; font-size: 18px; font-style: normal; font-weight: bold
+}
+.textepfisterrougetersgros {
+font-family: Arial, Helvetica, sans-serif; color: #FF0000; font-size: 14px; font-style: normal; font-weight: bold
+}
+.textepfisterjaune {
+font-family: Arial, Helvetica, sans-serif; color: #FF9900; font-size: 10px; font-style: normal; font-weight: bold
+}

@@ -1,0 +1,1617 @@
+@charset "utf-8";
+
+ #titre {font-size:20px;font-family:'pfister';color:#2b2b2c;border-left:1px dashed #888;border-bottom:1px dotted #888; padding:4px; margin-left:0px;margin-bottom:4px;}
+ #texte,#divtarifs  {width:950px;margin:13px; margin-bottom:20px;font-family:'pfister';color:#2a2b2c;font-size:14px;}
+ .jaune {color:#d2be1a}
+ #texte p { margin:0px; margin-left:12px;}
+
+
+#divtarifs Th {color:white;}
+
+
+#divtarifs Td {border-bottom: 1px #e2e2e2 dashed;}
+
+@font-face {
+    font-family: 'pfister';
+	
+	
+    src: url('itcavantgardegothicltbook.eot');
+    src: url('itcavantgardegothicltbook.eot?#iefix') format('embedded-opentype'),
+         url('itcavantgardegothicltbook.woff') format('woff'),
+         url('itcavantgardegothicltbook.ttf') format('truetype'),
+         url('itcavantgardegothicltbook.svg#itcavantgardegothicltbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	
+   /* src: url('helveticaneueltstd-roman-webfont.eot');
+    src: url('helveticaneueltstd-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneueltstd-roman-webfont.woff') format('woff'),
+         url('helveticaneueltstd-roman-webfont.ttf') format('truetype'),
+         url('helveticaneueltstd-roman-webfont.svg#HelveticaNeueLTStd55Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	*/
+
+}
+
+.textrotation45{
+	
+
+   -moz-transform:rotate(-34deg); /*firefox*/
+	-webkit-transform:rotate(-34deg); /*Chrome, Safari*/
+	-o-transform:rotate(-34deg); /*Opera*/
+
+	}
+	
+body{
+	
+	background:url(../images2/bg.jpg) #FFF center top;
+	background-repeat:no-repeat;
+	margin:0px;
+	font-family:pfister,Arial, Helvetica, sans-serif;
+	font-size:12px;
+	
+	}
+
+textevignette{
+	
+font-family :La Belle Aurore;
+	}
+
+.liengauche {
+color:#725b71;
+font-size:18px;
+text-decoration:none;
+}
+.liengauche_mpod {
+color:#717578;
+font-size:15px;
+text-decoration:none;
+}
+
+.liengauche:hover {
+color:#727679;
+font-size:15px;
+text-decoration:none;
+}
+.liengauche_mpod:hover {
+color:#000;
+font-size:15px;
+text-decoration:none;
+}
+.liengaucheactif, .liengaucheactif:hover {
+color:#c6b3bf;
+font-size:18px;
+text-decoration:none;
+}
+
+.boutongauche {
+background-color:#c6b3bf;
+color:#725b71;
+}
+.boutongaucheactif {
+background-color:#725b71;
+color:#c6b3bf;
+}
+
+
+
+.croixfiltre{
+	
+	margin-left:5px;
+	}
+	
+.liengauche:hover {
+color:black;
+font-size:18px;
+text-decoration:none;
+
+}
+
+#menu-nav a{ font-size:14px;}
+
+
+
+hr{
+	background:#b780a0;
+	border:1px solid #b780a0;
+	height:1px;
+	}
+
+.info_titre1
+{
+color:#a82268;
+font-size:16;
+}
+.info_titre
+{
+color:#a82268;
+}
+
+
+#faq a{
+	color:#927f93;
+	text-decoration:none;
+	}
+.textslidehome p, .textslidehome a,.textslidehome a:hover {
+	font-size:12px;
+	color:#a82268;
+	margin-top:21px;
+	
+	}
+	.textslidehomemariage p, .textslidehomemariage a,.textslidehomemariage a:hover {
+	font-size:12px;
+	color:#713e73;
+	margin-top:40px;
+	margin-right:15px;
+	
+	}
+.box_echan {
+margin-top:10px;
+color:#442a3f;
+font-size:13px; 
+position:relative;
+float:left;	
+	
+	
+}
+#menutopdroite{
+	height:25px;
+	background:url(../images2/menu-top-bg.jpg) no-repeat;
+	background-position:right;
+	}
+#menutopinfo{
+	height:23px;
+	padding-bottom:2px;
+	
+	}
+.menutop{
+	height:25px;
+	background-position:right;
+	color:#FFFFFF;
+	font-size:11px;
+	}
+#nbarticle{
+	padding-bottom:12px;
+	text-align:right;
+	float:right;
+	padding-right:100px;
+	color:#FFF;
+	font-size:11px;
+	}
+#menu-nav{
+	float:left; 
+	width:800px; 
+	height:27px; 
+	font-size:15px; 
+	color:#FFF; 
+	line-height:26px; 
+	padding-left:10px;
+	}
+#menu-nav a{
+	color:#FFF;
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+	cursor:pointer;
+	cursor:hand;
+	
+}
+#menu-nav a:hover{
+	color:#FFF;
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+	
+	
+}
+.entetehover {
+	color:#B4ACB5;
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+	
+	}
+	
+	.entetepashover {
+	color:#FFF;
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+	
+	}
+	
+#menu-nav .selectionne{
+	color:#C7B3BF;
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+}
+.form-recherche{
+	margin:0px; 
+	padding:0px; 
+	float:right; 
+	margin-top:0px; 
+	width:175px;  
+	margin-right:-5px;
+	}
+.coingauche{
+	/*background-image:url(../images2/coin-gauche.jpg);
+	background-repeat:no-repeat;
+	background-position:center left;*/
+	height:175px;
+	width:200px;
+	}
+.coindroit{
+	/*background-image:url(../images2/coin-droit.jpg);
+	background-repeat:no-repeat;
+	background-position:center;*/
+	height:175px;
+	width:200px;
+	}
+	
+.asterix{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	padding-left:15px;
+	float:left;
+	padding-top:10px;
+	padding-bottom:2px;
+	
+	}
+	
+#footer{
+	background-image:url(../images2/footer-bg.jpg);
+	background-repeat:repeat-x;
+	background-position:center top;
+	width:100%;
+	height:196px;
+	}
+#footer td, #footer td a{
+	padding-left:15px;
+	text-align:left;
+	color:#46394b;
+	vertical-align:top;
+	text-decoration:none;
+	font-size:10px;
+	line-height:18px;
+	padding-top:12px;
+		}
+#footer td a:hover{
+	color:#58495e
+	}
+	
+.footer-news{
+	background-repeat:no-repeat; 
+	background-position:center;
+	}
+	.footer-news-mariage{
+	background-repeat:no-repeat; 
+	background-position:center;
+	font-size:12px;
+	}
+	.footer-news-mariage div{
+	width:165px; margin-left:15px; padding-top:40px; line-height:15px;
+	font-size:12px
+	}
+.footer-news div{
+	width:165px; margin-left:15px; padding-top:40px; line-height:15px;
+	}
+.footer-sep{
+	background-image:url(../images2/footer-sep.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	}
+.footer-sep-mar{
+	background-image:url(../images2/mariage/footer-sep.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	font-size:13px;
+	}
+.footer-titre, .footer-titre a{
+	text-transform:uppercase;
+	font-size:11px;
+	line-height:25px;
+	display:block;
+	
+	padding-bottom:0px;
+	margin-bottom:0px;
+	height:10px;
+	text-decoration:none;
+	color:#46394b;
+	}
+.footer-sep-mar a{
+	font-size:13px;
+	}
+.footer-titre-mariage-pod, .footer-titre-mariage-pod a{
+	text-transform:uppercase;
+	font-size:15px;
+	line-height:25px;
+	display:block;
+	
+	padding-bottom:0px;
+	margin-bottom:0px;
+	height:10px;
+	text-decoration:none;
+	color:#ccc;
+	}
+.footer-cop{
+	font-size:10px;
+	color:#c8b4c0;
+	line-height:24px;
+	}
+	
+.haut8{
+	margin-top:8px;
+	float:left;
+	}
+.gauche20{
+	margin-left:20px;
+	}
+.bas10{
+	margin-bottom:10px;
+	}
+
+.acc-info{
+	float:left; 
+	display:block; 
+	padding-left:20px; 
+	padding-right:10px;
+	}
+.acc-ref{
+	float:right; 
+	display:block; 
+	padding-right:20px;
+	color:#735B71;
+	}
+
+
+	/* pou recherche entete */
+	
+		.arrondir{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #8e7f94;
+	background-color:#FFFfff;
+	z-index:1000;
+	text-indent:10px;
+	width:135px;
+		}
+
+
+
+.ok{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:0px solid #725B71;
+	background-color:#8e7f94;
+	width:25px;
+	color:#FFF;
+	font-size:11px;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:6px;
+	margin-left:-12px;
+	cursor:pointer;
+	cursor:hand;
+	
+	
+	}
+	/* fin recherche entete */
+	
+.titreFiltre{
+	font-size:13px;
+	color:#000;
+	line-height:20px;
+	margin-top:5px;
+	}
+
+#aide{
+	font-size:13px;
+	color:#A21A5C;
+	width:225px; 
+	height:220px;
+	background-image:url(../images2/recherche-aide.jpg); 
+	background-position:bottom center; 
+	background-repeat:no-repeat; 
+	position:relative; 
+	z-index:1; 
+	top:-10px;
+	text-align:center;
+	line-height:20px;
+	}
+
+.rose{
+	color:#A21A5C;
+	}
+.titreRoseGras{
+	font-size:13px;
+	color:#c76678;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	
+	}
+	
+#recherche-tri{
+	float:left;
+	line-height:25px;
+	}
+#recherche-nbfp{
+	float:left;
+	line-height:25px;
+	padding-left:5px;
+	}
+#recherche-page{
+	float:right;
+	line-height:25px;
+	/*color:#725a70;*/
+	font-size:11px;
+	}
+.page-select{
+	font-size:14px;
+	color:#a21a5c;
+	font-weight:bold;
+	}
+.recherche-ref{
+	color:#735B71;
+	font-size:11px;
+	}
+.recherche-prix{
+	color:#735B71;
+	font-size:13px;
+	}
+	
+#modele400{
+	
+	/*
+	background-image:url(../images2/coin-400.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	*/
+	
+	padding:8px;
+	width:430px;
+	min-height:420px;
+	text-align:center;
+		}
+#modele400 img{
+	margin-top:5px;
+	
+	}
+
+
+.titregrisgras{
+	font-size:14px;
+	font-weight:bold;
+	color:#473a4c
+	}
+.titregris{
+	font-size:14px;
+
+	color:#473a4c
+	}
+#aide-FP{
+	font-size:11px;
+	color:#432a3f;
+	width:225px; 
+	height:220px;
+	background-image:url(../images2/recherche-aide.jpg); 
+	background-position:bottom center; 
+	background-repeat:no-repeat; 
+	position:relative; 
+	z-index:1; 
+	text-align:center;
+	line-height:15px;
+	}
+.carre-coul-gros{
+	width:8px; 
+	height:8px; 
+	border:1px solid #CCC; 
+	font-size:8px; 
+	padding-left:4px; 
+	padding-right:4px;
+	}
+.carre-coul-perso{
+	height:18px; 
+	border:1px solid  #745b71; 
+	font-size:10px; 
+	padding-left:6px; 
+	padding-right:6px;
+	}
+.carre-coul-large{
+	width:25px; 
+	height:8px; 
+	border:1px solid #CCC; 
+	font-size:12px; 
+	padding-left:8px; 
+	padding-right:8px;
+	}
+.schoolbell{
+	font-family: 'Coming Soon', Arial;
+	font-size:18px;
+	font-weight:bold;
+	}
+.tourne{
+	-webkit-transform: rotate(-5deg); 
+	-moz-transform: rotate(-5deg);	
+	}
+.recto-verso{
+	/*background-image:url(../images2/perso-cote-bg.jpg);
+	background-position:bottom left;
+	background-repeat:no-repeat;*/
+	
+	}
+#apercu-carre{
+	background-image:url(../images2/perso-bg-carre.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:auto;
+	width:430px;
+	min-height:430px;
+	text-align:center;
+	margin-top:5px;
+	}
+#apercu-carre img{
+	margin-top:5px;
+	}
+.bloc{
+	padding-left:0px;
+	color:#725a70;
+	background-color:#e0d5dd;
+
+
+	}
+.bloc-titre{
+	font-size:14px;
+	color:#a82267;
+	background-color:#fff;
+	border-bottom:1px solid #bfbfbf;
+	height:22px;
+
+	}
+		.bloc-titre-photo{
+	font-size:14px;
+	color:#a82267;
+	background-color:#fff;
+	/*border-bottom:1px solid #bfbfbf;*/
+	height:22px;
+
+	}
+.bloc-outils{
+	border-left:1px solid #bfbfbf;
+	border-right:1px solid #bfbfbf;
+	}
+.bloc-ok{
+	border-left:1px solid #bfbfbf;
+	border-right:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+	}
+.editeur{
+	background-image:url(../images2/perso-outils-bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:330px;
+		width:230px;
+
+	}
+.editeur-content{
+	width:175px;
+
+	margin-top:60px;
+	line-height:20px;
+	color:#6d5869;
+	text-align:left
+	}
+.editeur-content img{
+	padding:1px;
+	}
+.editeur-content-select{
+	border:1px solid #fff;
+	margin-bottom:-1px;
+	background-color:#c7b3be
+	}
+.petit-violet{
+	color:#46394b;
+
+	font-size:10px;
+}
+
+
+
+/*
+#jactualise {
+	
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	background-color:#FFFfff;
+	z-index:1000;
+	text-indent:10px;
+	width:135px;
+	 background-color:#F8F8F8;
+	 width:160px;
+	 height:40px; 
+	 border:2px solid #f5f5f5;
+	cursor:pointer;
+	cursor:hand;
+	
+	}
+#jactualise:hover {
+	
+	border:#b980a1 2px dotted;
+	
+	}
+	*/
+	
+.plus_options a, .moins_options a{
+	font-size:10px;
+	color:#46394b;
+	}
+.panier-texte{
+	font-size:12px;
+	color:#46394b;
+	line-height:20px;
+	}
+.panier-titre{
+		font-size:13px;
+	color:#000000;
+	line-height:20px;
+	}
+.perso-onglet{
+	float:left; 
+	background-image:url(../images2/perso_onglet.png); 
+	background-repeat:no-repeat; 
+	background-position:center bottom; 
+	width:130px; 
+	height:30px; 
+	line-height:30px;
+	/*border: green 0px solid;*/
+	margin-top:94px;
+	}
+.perso-onglet-naissance{
+	float:left; 
+	background-image:url(../images2/naissance/perso_onglet.png); 
+	background-repeat:no-repeat; 
+	background-position:center bottom; 
+	width:130px; 
+	height:30px; 
+	line-height:30px;
+	/*border: green 0px solid;*/
+	margin-top:94px;
+	}
+.perso-onglet-mariage{
+	float:left; 
+	background-image:url(../images2/mariage/perso_onglet.png); 
+	background-repeat:no-repeat; 
+	background-position:center bottom; 
+	width:130px; 
+	height:30px; 
+	line-height:30px;
+	/*border: green 0px solid;*/
+	margin-top:94px;
+	}
+.perso-onglet-select{
+	float:left;
+	background-image:url(../images2/perso_onglet_select.png); 
+	background-repeat:no-repeat; 
+	background-position:bottom center;
+	width:130px; 
+	height:36px; 
+	line-height:36px;
+
+	/*border:red 1px solid;*/
+	margin-top:89px;
+	}
+.perso-onglet-select-naissance{
+	float:left;
+	background-image:url(../images2/naissance/perso_onglet_select.png); 
+	background-repeat:no-repeat; 
+	background-position:bottom center;
+	width:130px; 
+	height:36px; 
+	line-height:36px;
+
+	/*border:red 1px solid;*/
+	margin-top:89px;
+	}
+.perso-onglet-select-mariage{
+	float:left;
+	background-image:url(../images2/mariage/perso_onglet_select.png); 
+	background-repeat:no-repeat; 
+	background-position:bottom center;
+	width:130px; 
+	height:36px; 
+	line-height:36px;
+
+	/*border:red 1px solid;*/
+	margin-top:89px;
+	}
+.perso-onglet a,.perso-onglet-select a,.perso-onglet-mariage a,.perso-onglet-select-mariage a,.perso-onglet-naissance a,.perso-onglet-select-naissance a{
+	color:#000;
+	
+	text-decoration:none;
+}
+.perso-onglet  a:hover,.perso-onglet-select a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+.form{
+	width:495px;
+	border:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf; 
+	font-size:12px; 
+	padding:2px;
+	}
+#autres-options{
+	background-image:url(../images2/perso-options.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	height:215px;
+	width:345px;
+	}
+#autres-options-naissance{
+	background-image:url(../images2/perso-options.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	height:215px;
+	width:345px;
+	}
+#autres-options-mariage{
+	background-image:url(../images2/mariage/perso-options.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	height:215px;
+	width:345px;
+	}
+.perso-onglet-bg{
+	background-image:url(../images2/perso-onglet-bg.jpg);   /* 545x130 */
+	background-repeat:no-repeat; 
+	background-position:bottom left; 
+	height:125px; 
+	}
+.perso-onglet-bg-naissance{
+	background-image:url(../images2/naissance/perso-onglet-bg.jpg);   /* 545x130 */
+	background-repeat:no-repeat; 
+	background-position:bottom left; 
+	height:125px; 
+	}
+.perso-onglet-bg-mariage{
+	background-image:url(../images2/mariage/perso-onglet-bg.jpg);   /* 545x130 */
+	background-repeat:no-repeat; 
+	background-position:bottom left; 
+	height:125px; 
+	}
+.perso-top{
+	background-image:url(../images2/personnaliser-bg-top.jpg);
+	height:22px; 
+	background-position:center top; 
+	background-repeat:no-repeat; 
+	/*border:red solid 1px;*/
+	}
+.perso-top-naissance{
+	background-image:url(../images2/naissance/personnaliser-bg-top.jpg);
+	height:22px; 
+	background-position:center top; 
+	background-repeat:no-repeat; 
+	/*border:red solid 1px;*/
+	}
+.perso-top-mariage{
+	background-image:url(../images2/mariage/personnaliser-bg-top.jpg);
+	height:22px; 
+	background-position:center top; 
+	background-repeat:no-repeat; 
+	/*border:red solid 1px;*/
+	}
+.perso-centre{
+	background-image:url(../images2/personnaliser-bg-centre.jpg); 
+	background-repeat:repeat-y; 
+	background-position:center top;
+	width:522px;
+	}
+.perso-bottom{
+	/*background-image:url(../images2/personnaliser-bg-bottom.jpg);
+	background-position:top; 
+	background-repeat:no-repeat; */
+	padding-right:0px;
+	width:523px;
+	height:65px;
+	}
+.perso-aide{
+	width:290px; 
+	float:left; 
+	text-align:left; 
+	height:60px;  
+	padding-left:100px;
+	}
+.perso-options li{
+	font-size:12px;
+	display : list-item;
+ 	list-style-image : url(../images2/etoile.png);
+	}
+.perso-options-mariage li{
+	font-size:12px;
+	display : list-item;
+ 	list-style-image : url(../images2/mariage/etoile.png);
+	}
+.perso-options-naissance li{
+	font-size:12px;
+	display : list-item;
+ 	list-style-image : url(../images2/naissance/etoile.png);
+	}
+.perso-options a, .perso-options-naissance a, .perso-options-mariage a{
+	text-decoration:none;
+	color:#000;
+	}
+.perso-options a:hover, .perso-options-naissance a:hover, .perso-options-mariage a:hover{
+	text-decoration:underline;
+	color:#000;
+	}
+.perso-options, .perso-options-naissance, .perso-options-mariage{
+	padding-top:65px;
+	padding-left:100px;
+	text-align:left;
+	}
+.perso-etat{
+
+	font-size:12px;
+	color:#745b71;
+	line-height:20px;
+	
+	}
+.perso-etat .titreRoseGras{
+	line-height:30px;
+	}
+.perso-etat .petit-violet{
+	line-height:14px;
+	}
+.options{
+	background-color:#E3E1E6;
+	}
+.info{
+	width:210px;
+	float:right;
+	border:1px solid #dcd6db;
+	margin-top:4px;
+	}
+.info-confirm{
+	width:160px;
+	float:right;
+	border:1px solid #dcd6db;
+	margin-top:4px;
+	}
+.info-adresse{
+	float:right;
+	width:300px;
+	border:1px solid #dcd6db;
+	margin-bottom:10px;
+	margin-top:-6px;
+	}
+.info-table{
+	line-height:35px;
+		font-size:14px;
+		font-family:Arial, Helvetica, sans-serif;
+	
+	
+	}
+.info-table label {
+	line-height:27px;
+		font-size:11px;
+		font-family:Arial, Helvetica, sans-serif;
+		
+	
+	}
+.textes-violets{
+	line-height:20px;
+	color:#442A3F;
+	}
+	
+	.textepetit {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000;
+	}
+	
+	
+.connecter{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior:url(js/border-radius.htc);
+	border:1px solid #725B71;
+	background-color:#8e7f94;
+	width:120px;
+	color:#FFF;
+	font-size:12px;
+	padding-top:2px;
+	padding-bottom:4px;
+	}
+.illus-contact{
+	padding-left:15px; 
+	background-image:url(../images2/illus-contact.jpg); 
+	background-repeat:no-repeat; 
+	background-position:center;
+	}
+#contact{
+	text-align:center; 
+	width:300px; 
+	padding-left:30px; 
+	margin:auto; 
+	padding-top:85px;
+	}
+.coin-droit-cote{
+	background-position:bottom right; 
+	background-repeat:no-repeat; 
+	background-image:url(../images2/panier-coin-droit-cote.jpg)
+	}
+.coin-droit-bas{
+	background-position:top right; 
+	background-repeat:no-repeat; 
+	background-image:url(../images2/panier-coin-droit-bas.jpg)
+	}
+.coin-gauche-haut{
+	background-position:bottom left; 
+	background-repeat:no-repeat; 
+	background-image:url(../images2/panier-coin-gauche-haut.jpg)
+	}
+.coin-gauche-cote{
+	background-position:top left; 
+	background-repeat:no-repeat; 
+	background-image:url(../images2/panier-coin-gauche-cote.jpg)
+	}
+.panier-code{
+	background-color:#c7b3bf; 
+	border:1px solid #ba9bae; 
+	padding:8px; 
+	font-size:15px; 
+	font-weight:bold; 
+	color:#FFF; 
+	line-height:25px
+	}
+.panier-code-naissance{
+	background-color:#c7b3bf; 
+	border:1px solid #ba9bae; 
+	padding:8px; 
+	font-size:15px; 
+	font-weight:bold; 
+	color:#FFF; 
+	line-height:25px
+	}
+.panier-code-mariage{
+	background-color:#c7b3bf; 
+	border:1px solid #ba9bae; 
+	padding:8px; 
+	font-size:15px; 
+	font-weight:bold; 
+	color:#FFF; 
+	line-height:25px
+	}
+.panier-montant{
+	background-color:#a3929c; 
+	border:1px solid #977e8d; 
+	padding:10px; 
+	font-size:15px; 
+	font-weight:bold; 
+	color:#FFF; 
+	text-align:right;
+	}
+.panier-montant-naissance{
+	background-color:#a3929c; 
+	border:1px solid #977e8d; 
+	padding:10px; 
+	font-size:15px; 
+	font-weight:bold; 
+	color:#FFF; 
+	text-align:right;
+	}
+.panier-montant-mariage{
+	background-color:#a3929c; 
+	border:1px solid #977e8d; 
+	padding:10px; 
+	font-size:15px; 
+	font-weight:bold; 
+	color:#FFF; 
+	text-align:right;
+	}
+.panier-pense{
+	margin-left:8px;
+	width:272px; 
+	height:405px;
+	background-image:url(../images2/panier-pensebete.jpg);  /* 272 x 405 */
+	background-repeat:no-repeat; 
+	background-position:center bottom;
+	border:0px white solid;
+
+}
+.panier-pense-naissance{
+	margin-left:8px;
+	width:272px; 
+	height:405px;
+	background-image:url(../images2/naissance/panier-pensebete.jpg);  /* 272 x 405 */
+	background-repeat:no-repeat; 
+	background-position:center bottom;
+	border:0px white solid;
+
+}
+.panier-pense-mariage{
+	margin-left:8px;
+	width:272px; 
+	height:405px;
+	background-image:url(../images2/mariage/panier-pensebete.jpg);  /* 272 x 405 */
+	background-repeat:no-repeat; 
+	background-position:center bottom;
+	border:0px white solid;
+
+}
+#remerciements{
+	position:absolute;
+	margin-top:112px;
+	margin-left:20px;
+	height:80px;
+	/*border:1px solid green;*/
+	color:#442b41; 
+	font-size:12px; 
+	line-height:16px;
+	}
+#vernisinfo{
+	position:absolute;
+	margin-top:268px;
+	margin-left:110px;
+	padding-left:0px; 
+	color:#442b41; 
+	font-size:12px; 
+	line-height:18px;
+	/*border:1px solid red;*/
+	
+	}
+#arbo{
+	text-align:left;
+	width:1000px; 
+	padding-left:20px;
+	margin:0px; 
+	font-size:10px; 
+	color:#000; 
+	line-height:20px;
+	
+	}
+
+.bt_panier_valide {
+	
+	 width:194px;
+	 height:54px;
+	 border:none;
+	 padding-top:56px; 
+	 background: top left no-repeat url(../images2/panier-bouton-valide.jpg);
+	 cursor:hand; /* dav :  c pour ie */
+	 cursor:pointer;
+}
+.bt_panier_valide-mariage {
+	
+	 width:194px;
+	 height:54px;
+	 border:none;
+	 padding-top:56px; 
+	 background: top left no-repeat url(../images2/mariage/panier-bouton-valide.jpg);
+	 cursor:hand; /* dav :  c pour ie */
+	 cursor:pointer;
+}
+.bt_panier_valide-naissance {
+	
+	 width:194px;
+	 height:54px;
+	 border:none;
+	 padding-top:56px; 
+	 background: top left no-repeat url(../images2/naissance/panier-bouton-valide.jpg);
+	 cursor:hand; /* dav :  c pour ie */
+	 cursor:pointer;
+}
+.petitlienpanier {
+
+font-size:10px;	
+	
+	
+}
+
+.petitliendiv  {
+vertical-align:middle;
+font-size:10px;	
+color:#000000;
+text-decoration:none;
+	
+}
+.petitliendiv a,img {
+	vertical-align:middle;
+	font-size:10px;
+	color:#000000;
+	text-decoration:none;
+	text-align: center;
+	
+}
+.petitliendiv a:hover {
+
+text-decoration:underline;
+	
+}
+  
+    .ombrage { 
+    border: 5px solid #fff; 
+    -moz-box-shadow: 8px 8px 10px #bbb;  
+    -webkit-box-shadow: 8px 8px 10px #bbb;  
+    box-shadow: 8px 8px 10px #bbb;  
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=135, Strength=8); 
+    zoom: 1; 
+    }  
+	
+	    .ombragemoyen { 
+    border: 1px solid #FAEFFA; 
+    -moz-box-shadow: 6px 6px 8px #bbb;  
+    -webkit-box-shadow: 6px 6px 8px #bbb;  
+    box-shadow: 6px 6px 8px #bbb;  
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=135, Strength=6); 
+    zoom: 1; 
+    }  
+	
+	    .ombragepetit { 
+    border: 2px solid #fff; 
+    -moz-box-shadow: 4px 4px 6px #bbb;  
+    -webkit-box-shadow: 4px 4px 6px #bbb;  
+    box-shadow: 4px 4px 6px #bbb;  
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=135, Strength=4); 
+    zoom: 1; 
+    } 
+ 
+ 
+ 
+ 
+ 
+ 
+ #menucollectiongauche li {
+	 
+	 
+	  margin-left:10px;
+	  padding-left:20px;
+	  margin-bottom:10px;
+	  
+	  }
+	  .menusouscat {
+		  
+		  font-size:13px;color:#725b71;text-decoration:none;
+		  
+		  }
+		  
+		  	  .menusouscat:hover{
+		  
+		  font-size:13px;color:#000;text-decoration:none;
+		  
+		  }
+		  
+		  	 .menusouscatselected {
+		  
+		  font-size:14px;color:#000;text-decoration:none;
+		  margin-left:-16px
+		  
+		  }
+		  		  	 .menusouscatselected:hover {
+		  
+		  font-size:14px;color:#000;text-decoration:none;
+		   margin-left:-16px
+		  
+		  }
+	 
+
+ li.LIcollection:hover {
+	  background-image:url(../images2/pastilleviolette_choix.png); 
+ background-position:0 12; 
+ background-repeat:no-repeat;
+ 
+ }
+ 
+li.LIcollectionselected {
+
+ background-image:url(../images2/pastille_choix.png); 
+ background-position:0 12; 
+ background-repeat:no-repeat;
+ }
+ 
+ 
+ .infoimportante {
+	 
+	 font-size:14px;
+	 color:#821E82;
+	 
+	 
+	 }
+	 
+ .liencompte, .liencompte a{
+	color: #999999;
+	text-decoration:none;
+	font-size:13px;
+	background-color: #FDECFD;
+	border-radius:4px;
+	width:100px;
+	line-height:25px;
+	border:1px solid #F3D7F7;
+	padding:6px;
+	text-align:center;
+	}
+
+ .liencompte:hover, .liencompte a:hover{
+	color:#999999;
+	text-decoration:none;
+	font-size:13px;
+	background-color:  #FEF4FF;
+	border-radius:4px;
+	width:100px;
+	line-height:25px;
+	border:1px solid #F3D7F7;
+	padding:6px;
+	text-align:center;
+	cursor:pointer;
+	cursor:hand;
+		}
+		
+  .btmariage, .btmariage a{
+	color: #fff;
+	text-decoration:none;
+	font-size:13px;
+	background-color: #777374;
+	border-radius:4px;
+	width:100px;
+	line-height:25px;
+	border:1px solid #e2e2e2;
+	padding:6px;
+	text-align:center;
+	}
+
+ .btmariage:hover, .btmariage a:hover{
+	color:#fff;
+	text-decoration:none;
+	font-size:13px;
+	background-color:  #777374;
+	border-radius:4px;
+	width:100px;
+	line-height:25px;
+	border:1px solid #e2e2e2;
+	padding:6px;
+	text-align:center;
+	cursor:pointer;
+	cursor:hand;
+		}
+ 
+ .declinaisonfamille 
+{
+	background-image:url(../images2/faire-part-famille.gif);
+	width:196px;
+	height:20px;
+	position:absolute;
+	margin-top:-16px;
+	margin-left:2px;
+}
+
+/* MARIAGE */
+.lien-top-mariage{
+	margin-left:140px;
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:22px;
+	}
+.lien-top-mariage a{
+	text-decoration:none;
+	font-size:14px;
+	}
+.lien-menu-mariage{
+	font-size:15px;
+	}	
+.lien-menu-mariage a{
+	font-size:15px;
+	text-decoration:none;
+	color:#ffffff;
+	padding-left:10px;
+	padding-right:10px;
+	}	
+.lien-menu-mariage a:hover{
+	font-size:15px;
+	text-decoration:none;
+	color:#ffffff;
+	padding-left:10px;
+	padding-right:10px;
+	}	
+.lien-top-mariage-panier{
+	color:#747171;
+		margin-left:540px;
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:22px;
+	text-decoration:none
+	}
+	
+.rechercher-mariage{
+	text-transform:uppercase;
+	font-size:13px;
+	color:#FFF;
+	padding-left:100px;
+	}
+	
+.rechercher-form-mariage{
+	background-color:#9a9898;
+	border:1px solid #b1b0b0;
+	width:100px;
+	height:15px;
+	font-size:11px;
+	color:#fff;
+	margin-left:5px;
+	line-height:15px;
+	}
+.rechercher-form-mariage-ok{
+	background-color:#fff;
+	width:22px;;
+	height:17px;
+	font-size:11px;
+	color:#c68e99;
+	text-transform:uppercase;
+	border:1px solid #b1b0b0;
+	margin-left:5px;
+	line-height:15px;
+	}
+.mariage-gris-moyen{
+	color:#909090;
+	}
+.mariage-gris{
+	color:#747171;
+	}	
+.mariage-rose{
+	color:#c76678;
+	}
+.mariage-rose a{
+	color:#c76678;
+	text-decoration:none;
+	}
+.mariage-textslidehome p, .mariage-textslidehome a, .mariage-textslidehome  a:hover {
+	font-size:12px;
+	color:#7e7e7e;
+	margin-top:30px;
+	
+	}
+#footer-mariage{
+	background-image:url(http://www.faire-part-creatif.com/faire-part-mariage/images2/footer-bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	width:1020px;
+	background-color:#797373;
+	/*height:200px;*/
+	font-size:11px;
+	color:#fff;
+	padding-top:25px;
+	}
+.footer-mariage-lien{
+	 text-decoration:none;
+	 color:#c4c2c2;
+	 font-size:12px;
+	 line-height:20px;
+
+	 }
+	.footer-mariage-lien a:hover{
+	 text-decoration:none;
+	 color:#c4c2c2;
+
+	 }
+.footer-titre-mariage, .footer-titre-mariage a{
+	text-transform:none;
+	font-size:22px;
+	line-height:25px;
+	display:block;
+	font-family:La Belle Aurore, Arial;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	height:10px;
+	text-decoration:none;
+	color:#ffffff;
+	}
+.footer-titre-mariage a:hover{
+	color:#ffffff;
+	font-size:22px;
+	}
+.footer-cop-mariage{
+	font-size:10px;
+	color:#fff;
+	line-height:24px;
+	}
+.footer-sep-mariage{
+	background-image:url(http://www.faire-part-creatif.com/faire-part-mariage/images2/footer-sep.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	}
+.footer-news-mariage{
+	font-size:13px;
+		font-family:Quattrocento Sans, Arial;
+		color:#eee;
+		line-height:20px;
+		padding-left:17px;
+		padding-top:12px;
+	}
+.lettrine-mariage-titre-produit{
+			font-family:La Belle Aurore, Arial;
+			color:#8a8a89;
+			font-size:36px;
+			/*line-height:25px;*/
+	
+	}
+.titre-gris-mariage{
+	font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#8a8a89;
+	}
+.texte-gris-mariage{
+	color:#9f9f9f;
+	font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+
+	}
+.texte-gris-fonce-mariage{
+	color:#747272;
+	font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+
+	}
+.douze{
+	font-size:12px;
+	}
+.treize{
+	font-size:13px;
+	}
+.titre-gauche-mariage{
+			font-family:La Belle Aurore, Arial;
+			color:#c76678;
+			font-size:26px;
+	
+	}
+ .menusouscat-mariage {
+		  
+		  font-size:15px;color:#767271;text-decoration:none;
+		  
+		  }
+		  
+		  	  .menusouscat-mariage:hover{
+		  
+		  font-size:15px;color:#767271;text-decoration:none;
+		  
+		  }
+		  
+		  	 .menusouscat-mariageselected {
+		  
+		  font-size:15px;color:#767271;text-decoration:none;
+		  font-weight:bold;
+		  
+		  }
+		  		  	 .menusouscat-mariageselected:hover {
+		  
+		  font-size:14px;color:#767271;text-decoration:none;
+		  font-weight:bold;
+		  
+		  }
+.titre-gauche-mariage-astuce{
+			font-family:La Belle Aurore, Arial;
+			color:#888;
+			font-size:26px;
+			padding-left:85px;
+			margin-bottom:-10px;
+	
+	}
+.astuce-mariage{
+	font-size:12px;
+	text-align:right;
+	width:190px;
+	border-right:1px dotted #ccc;
+	padding-right:15px;
+	height:75px;
+	line-height:18px;
+	
+	}
+.rose-mariage{
+	color:#c76678
+	}
+.serie-mariage-titre-produit{
+			font-family:La Belle Aurore, Arial;
+			color:#c68e99;
+			font-size:25px;
+			line-height:25px;
+	
+	}
+.prix-fiche-produit-mariage{
+	font-size:11px;
+	color:#c7bfbf;
+	}
+.titre-produit-mariage{
+			font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+			color:#747272;
+			font-size:20px;
+	
+	}
+.titre-produit-mariage-serie, .titre-produit-mariage-serie a{
+			font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+			color:#c76678; font-size:16px; line-height:24px;
+			text-decoration:none;
+	
+	}	
+.panier-code-mariage{
+	background-color:#f0f1ef; 
+	border:1px solid #babbb5; 
+	padding:8px; 
+	font-size:15px; 
+	font-weight:normal; 
+	color:#747272; 
+	line-height:25px;
+	font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+	}
+.panier-montant-mariage{
+	background-color:#f0f1ef; 
+	border:1px solid #babbb5; 
+	padding:10px; 
+	font-size:15px; 
+	font-weight:normal; 
+	color:#747272; 
+	text-align:right;
+	font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+	}
+ .liencompte-mariage, .liencompte-mariage a{
+	color: #fff;
+	text-decoration:none;
+	font-size:13px;
+	background-color: #d2a6af;
+	border-radius:4px;
+	width:100px;
+	line-height:25px;
+	border:1px solid #c899a3;
+	padding:6px;
+	text-align:center;
+	}
+.liencompte-mariage a{
+	color:#ffffff;
+	}
+
+ .liencompte-mariage:hover, .liencompte-mariage a:hover{
+	color:#fff;
+	text-decoration:none;
+	font-size:13px;
+	background-color:  #dcb3bb ;
+	border-radius:4px;
+	width:100px;
+	line-height:25px;
+	border:1px solid #c899a3;
+	padding:6px;
+	text-align:center;
+	cursor:pointer;
+	cursor:hand;
+		}
+	
+.info_titre1-mariage
+{
+color:#c76678;
+font-size:16;
+}
+.info_titre-mariage
+{
+color:#747272;
+}
+
+.panier-titre-mariage{
+		font-size:13px;
+	color:#c76678;
+	line-height:20px;
+	}
+.textslidehome-mariage p, .textslidehome-mariage a,.textslidehome-mariage a:hover {
+	font-size:12px;
+	color:#666;
+	margin-top:21px;
+	
+	}
+.mySelect2{
+	border:1px solid #ccc;
+	}
+.okpodmariage{
+	border:1px solid #ccc;
+	background-color:#eee;
+	width:25px;
+	font-size:12px;
+	}
+.recherchepodmariage{
+	border:1px solid #ccc;
+	background-color:#eee;
+	width:100px;
+	}

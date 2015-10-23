@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>CABINET PFISTER - ROHM  --- Espace abonn&eacute;s</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="stylecss/pfister.css" type="text/css">
+<script language="javascript">
+function verifblanc(input,nomduchamp)
+{
+if (input.value==null || input.value.length == 0 ) { alert('il faut remplir le champ : '+nomduchamp); return false;} else {return true} 
+}
+function verification(laform)
+{
+if (!verifblanc(laform.champlogin,"login")) {return false}
+if (!verifblanc(laform.champpassword,"mot de passe")) {return false}
+laform.submit()
+return true
+}
+function submitenter(lechamp,e)
+{
+var keycode;
+if (window.event) keycode = window.event.keyCode;
+else if (e) keycode = e.which;
+else return true;
+
+if (keycode == 13)
+   {
+   verification(lechamp.form);
+   return false;
+   }
+else
+   return true;
+}
+
+</script>
+</head>
+
+<body bgcolor="#e1e1e2" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div id="Layer2" style="position:absolute; left:8px; top:267px; width:122px; height:48px; z-index:2"><a href="http://www.c2i-consultants.fr" target="_top"><img src="images/logc2i.gif" width="123" height="49" border="0"></a></div>
+<table width="626" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" background="images/fond.gif" height="340">
+  <tr> 
+    <td height="" rowspan="2" valign="middle" align="left"> 
+      <table width="144" border="1" height="300" bordercolor="#006699" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td height="19" bgcolor="#006699"> 
+            <div align="center"><b class="textepfisterblanc">Contenu</b></div>
+          </td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top" bgcolor="#F3F3F3"><b><span class="textepfister"><br>
+            1- Effectuer vos remises de dossiers par voie &eacute;lectronique. 
+            </span></b> 
+            <p class="textepfister"><span class="textepfister"><b> 2- Effectuer 
+              des recherches sur des entreprises. Consultez notre base de donn&eacute;es 
+              connu / pas connu.</b></span></p>
+            </td>
+        </tr>
+      </table>
+    </td>
+    <td height="40" valign="middle" align="center"> 
+      <table width="200" border="0" height="40">
+          <tr>
+            
+          <td><img src="images/clefs3.gif" width="40" height="40"></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="3" color="#000000"><b><font size="4" color="#FFFFFF" class="textepfister14">Espace 
+              Abonn&eacute;s</font></b></font></td>
+          </tr>
+        </table>
+      
+    </td>
+    <td height="" rowspan="2" align="right" valign="middle"> 
+      <table width="161" border="1" height="300" cellspacing="0" bordercolor="#006699" cellpadding="5">
+        <tr> 
+          <td height="19" bgcolor="#006699"> 
+            <div align="center"><b class="textepfisterblanc">Modalit&eacute;s</b></div>
+          </td>
+        </tr>
+        <tr> 
+          <td bgcolor="#F3F3F3" valign="top"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000"><b><br>
+            <span class="textepfister">Vous n'&ecirc;tes pas encore abonn&eacute; 
+            et souhaitez b&eacute;n&eacute;ficier de ce service ? </span></b></font> 
+            <p class="textepfister"><b><font face="Arial, Helvetica, sans-serif" size="2" color="#000000" class="textepfister">Reportez-vous 
+              &agrave; la rubrique &laquo;&nbsp;Contacts&nbsp;&raquo; afin de 
+              nous envoyer votre demande :<br>
+              - par e-mail,<br>
+              - par fax,<br>
+              - par t&eacute;l&eacute;phone</font></b></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="" width="320"> 
+      <form name="form1" method="post" action="login.asp">
+        <table width="311" border="0" height="219" cellspacing="0">
+          <tr> 
+            <td colspan="2"> 
+              <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF" size="4" class="textepfister12">Veuillez 
+                vous identifier</font></b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td width="144" align="right" height="44"><b><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF" class="textepfister"><span class="textepfister12">Code 
+              d'acc&eacute;s</span> :</font></b></td>
+            <td width="163" height="44"> 
+              <div align="center"> 
+                <input onKeyPress="javascript:submitenter(this,event)" type="text" name="champlogin" class="bordures" size="16">
+              </div>
+            </td>
+          </tr>
+          <tr> 
+            <td width="144" align="right" height="47"><b><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF" class="textepfister"><span class="textepfister12">Mot 
+              de passe </span>:</font></b></td>
+            <td width="163" align="center" height="47"> 
+              <input onKeyPress="javascript:submitenter(this,event)" type="password" name="champpassword" class="bordures" size="16">
+            </td>
+          </tr>
+          <tr align="right"> 
+            <td height="47" width="144">&nbsp; </td>
+            <td height="47" width="163"> 
+             <a  onMouseOver="style.cursor='hand'" Onclick="Javascript:verification(document.form1)"> <img src="images/bt_valider.gif" width="87" height="31"></a>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,665 @@
+@charset "utf-8";
+body{
+	background:url(../images/bg.jpg) #FFF top center;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+hr{
+	background:#b780a0;
+	border:1px solid #b780a0;
+	height:1px;
+	}
+
+#menutopdroite{
+	height:25px;
+	background:url(../images/menu-top-bg.jpg) no-repeat;
+	background-position:right;
+	}
+#menutopinfo{
+	height:23px;
+	padding-bottom:2px;
+	
+	}
+.menutop{
+	height:25px;
+	background-position:right;
+	color:#FFFFFF;
+	font-size:11px;
+	}
+#nbarticle{
+	padding-bottom:12px;
+	text-align:right;
+	float:right;
+	padding-right:100px;
+	color:#FFF;
+	font-size:11px;
+	}
+#menu-nav{
+	float:left; 
+	width:990px; 
+	height:27px; 
+	font-size:15px; 
+	color:#FFF; 
+	line-height:27px; 
+	padding-left:10px;
+	}
+#menu-nav a{
+	color:#FFF;
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+}
+#menu-nav a:hover{
+	color:#B4ACB5;
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+}
+#menu-nav .selectionne{
+	color:#C7B3BF;
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+}
+.form-recherche{
+	margin:0px; 
+	padding:0px; 
+	float:right; 
+	margin-top:0px; 
+	width:175px;  
+	margin-right:-5px;
+	}
+.coingauche{
+	background-image:url(../images/coin-gauche.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:175px;
+	width:200px;
+	}
+.coindroit{
+	background-image:url(../images/coin-droit.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:175px;
+	width:200px;
+	}
+	
+.asterix{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	padding-left:15px;
+	float:left;
+	padding-top:10px;
+	padding-bottom:2px;
+	
+	}
+	
+#footer{
+	background-image:url(../images/footer-bg.jpg);
+	background-repeat:repeat-x;
+	background-position:center top;
+	width:100%;
+	height:196px;
+	}
+#footer td, #footer td a{
+	padding-left:15px;
+	text-align:left;
+	color:#46394b;
+	vertical-align:top;
+	text-decoration:none;
+	font-size:10px;
+	line-height:18px;
+		}
+#footer td a:hover{
+	color:#58495e
+	}
+	
+.footer-news{
+	background-repeat:no-repeat; 
+	background-position:center;
+	}
+.footer-news div{
+	width:165px; margin-left:15px; padding-top:40px; line-height:15px;
+	}
+.footer-sep{
+	background-image:url(../images/footer-sep.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	}
+.footer-titre, .footer-titre a{
+	text-transform:uppercase;
+	font-size:11px;
+	line-height:25px;
+	display:block;
+	padding-top:25px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	height:10px;
+	text-decoration:none;
+	color:#46394b;
+	}
+.footer-cop{
+	font-size:10px;
+	color:#c8b4c0;
+	line-height:24px;
+	}
+	
+.haut8{
+	margin-top:8px;
+	}
+.gauche20{
+	margin-left:20px;
+	}
+.bas10{
+	margin-bottom:10px;
+	}
+
+.acc-info{
+	float:left; 
+	display:block; 
+	padding-left:20px; 
+	padding-right:10px;
+	}
+.acc-ref{
+	float:right; 
+	display:block; 
+	padding-right:20px;
+	color:#735B71;
+	}
+
+
+	/* pou recherche entete */
+	.arrondir{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior:url(js/border-radius.htc);
+	border:1px solid #8e7f94;
+	background-color:#FFFfff;
+	z-index:1000
+	}
+.ok{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior:url(js/border-radius.htc);
+	border:1px solid #725B71;
+	background-color:#8e7f94;
+	margin-left:-20px;
+	width:25px;
+	color:#FFF;
+	font-size:11px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-right:5px; 
+	padding-left:4px;
+	}
+	/* fin recherche entete */
+	
+.titreFiltre{
+	font-size:13px;
+	color:#000;
+	line-height:20px;
+	margin-top:5px;
+	}
+.filtre{
+	font-size:11px;
+	color:#725a70;
+	padding-left:12px;
+	padding-top:1px;
+	line-height:16px;
+	}
+#aide{
+	font-size:13px;
+	color:#A21A5C;
+	width:225px; 
+	height:220px;
+	background-image:url(../images/recherche-aide.jpg); 
+	background-position:bottom center; 
+	background-repeat:no-repeat; 
+	position:relative; 
+	z-index:1; 
+	top:-10px;
+	text-align:center;
+	line-height:20px;
+	}
+
+.rose{
+	color:#A21A5C;
+	}
+.titreRoseGras{
+	font-size:14px;
+	color:#A21A5C;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	}
+	
+#recherche-tri{
+	float:left;
+	line-height:25px;
+	}
+#recherche-nbfp{
+	float:left;
+	line-height:25px;
+	padding-left:5px;
+	}
+#recherche-page{
+	float:right;
+	line-height:25px;
+	/*color:#725a70;*/
+	font-size:11px;
+	}
+.page-select{
+	font-size:14px;
+	color:#a21a5c;
+	font-weight:bold;
+	}
+.recherche-ref{
+	color:#735B71;
+	font-size:11px;
+	}
+.recherche-prix{
+	color:#735B71;
+	font-size:13px;
+	}
+	
+#modele400{
+	background-image:url(../images/coin-400.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:auto;
+	width:430px;
+	min-height:430px;
+	text-align:center;
+	margin-top:5px;
+	}
+#modele400 img{
+	margin-top:5px;
+	
+	}
+#infos-gauche{
+	text-align:right; 
+	padding-right:10px;
+	padding-left:10px;
+	width:285px;
+	vertical-align:top;
+	color:#735b71;
+	line-height:20px;
+	}
+#infos-droite{
+	text-align:left; 
+	padding-left:10px;
+	padding-right:10px;
+	width:285px;
+	vertical-align:top;
+	color:#735b71;
+	line-height:20px;
+}
+.titregrisgras{
+	font-size:14px;
+	font-weight:bold;
+	color:#473a4c
+	}
+.titregris{
+	font-size:14px;
+
+	color:#473a4c
+	}
+#aide-FP{
+	font-size:11px;
+	color:#432a3f;
+	width:225px; 
+	height:220px;
+	background-image:url(../images/recherche-aide.jpg); 
+	background-position:bottom center; 
+	background-repeat:no-repeat; 
+	position:relative; 
+	z-index:1; 
+	text-align:center;
+	line-height:15px;
+	}
+.carre-coul-gros{
+	width:8px; 
+	height:8px; 
+	border:1px solid #CCC; 
+	font-size:8px; 
+	padding-left:4px; 
+	padding-right:4px;
+	}
+.carre-coul-perso{
+	height:18px; 
+	border:1px solid  #745b71; 
+	font-size:10px; 
+	padding-left:6px; 
+	padding-right:6px;
+	}
+.carre-coul-large{
+	width:25px; 
+	height:8px; 
+	border:1px solid #CCC; 
+	font-size:12px; 
+	padding-left:8px; 
+	padding-right:8px;
+	}
+.schoolbell{
+	font-family: 'Coming Soon', Arial;
+	font-size:18px;
+	font-weight:bold;
+	}
+.tourne{
+	-webkit-transform: rotate(-5deg); 
+	-moz-transform: rotate(-5deg);	
+	}
+.recto-verso{
+	background-image:url(../images/perso-cote-bg.jpg);
+	background-position:bottom left;
+	background-repeat:repeat-x;
+	}
+#apercu-carre{
+	background-image:url(../images/perso-bg-carre.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:auto;
+	width:430px;
+	min-height:430px;
+	text-align:center;
+	margin-top:5px;
+	}
+#apercu-carre img{
+	margin-top:5px;
+	}
+.bloc{
+	padding-left:0px;
+	color:#725a70;
+	background-color:#e0d5dd;
+
+
+	}
+.bloc-titre{
+	font-size:14px;
+	color:#a82267;
+	background-color:#fff;
+	border-bottom:1px solid #bfbfbf;
+	height:22px;
+
+	}
+.bloc-outils{
+	border-left:1px solid #bfbfbf;
+	border-right:1px solid #bfbfbf;
+	}
+.bloc-ok{
+	border-left:1px solid #bfbfbf;
+	border-right:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+	}
+.editeur{
+	background-image:url(../images/perso-outils-bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:330px;
+		width:230px;
+
+	}
+.editeur-content{
+	width:175px;
+
+	margin-top:60px;
+	line-height:20px;
+	color:#6d5869;
+	text-align:left
+	}
+.editeur-content img{
+	padding:1px;
+	}
+.editeur-content-select{
+	border:1px solid #fff;
+	margin-bottom:-1px;
+	background-color:#c7b3be
+	}
+.petit-violet{
+	color:#46394b;
+
+	font-size:10px;
+}
+.plus_options a, .moins_options a{
+	font-size:10px;
+	color:#46394b;
+	}
+.panier-texte{
+	font-size:12px;
+	color:#46394b;
+	line-height:20px;
+	}
+.panier-titre{
+		font-size:13px;
+	color:#000000;
+	line-height:20px;
+	}
+.perso-onglet{
+	float:left; 
+	background-image:url(../images/perso_onglet.png); 
+	background-repeat:no-repeat; 
+	background-position:bottom center; 
+	width:130px; 
+	height:36px; 
+	line-height:50px;
+	}
+.perso-onglet-select{
+	float:left;
+	background-image:url(../images/perso_onglet_select.png); 
+	background-repeat:no-repeat; 
+	background-position:bottom center;
+	width:130px; 
+	height:36px; 
+	line-height:36px;
+	}
+.form{
+	width:495px;
+	border:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf; 
+	font-size:12px; 
+	padding:2px;
+	}
+#autres-options{
+	background-image:url(../images/perso-options.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	height:215px;
+	width:345px;
+	}
+.perso-onglet-bg{
+	background-image:url(../images/perso-onglet-bg.jpg); 
+	background-repeat:no-repeat; 
+	background-position:bottom left; 
+	height:115px; 
+	padding-bottom:6px; 
+	}
+.perso-top{
+	background-image:url(../images/personnaliser-bg-top.jpg);
+	height:12px; 
+	background-position:center top; 
+	background-repeat:no-repeat; 
+	}
+.perso-centre{
+	background-image:url(../images/personnaliser-bg-centre.jpg); 
+	background-repeat:repeat-y; 
+	background-position:top center;
+	}
+.perso-bottom{
+	background-image:url(../images/personnaliser-bg-bottom.jpg);
+	background-position:top; 
+	background-repeat:no-repeat; 
+	padding-right:15px;
+	}
+.perso-aide{
+	width:290px; 
+	float:left; 
+	text-align:left; 
+	height:60px;  
+	padding-left:100px;
+	}
+.perso-options li{
+	font-size:12px;
+	display : list-item;
+ 	list-style-image : url(../images/etoile.png);
+	}
+.perso-options{
+	padding-top:65px;
+	padding-left:100px;
+	text-align:left;
+	}
+.perso-etat{
+
+	font-size:12px;
+	color:#745b71;
+	line-height:20px;
+	
+	}
+.perso-etat .titreRoseGras{
+	line-height:30px;
+	}
+.perso-etat .petit-violet{
+	line-height:14px;
+	}
+.options{
+	background-color:#E3E1E6;
+	}
+.info{
+	width:210px;
+	float:right;
+	border:1px solid #dcd6db;
+	margin-top:4px;
+	}
+.info-confirm{
+	width:160px;
+	float:right;
+	border:1px solid #dcd6db;
+	margin-top:4px;
+	}
+.info-adresse{
+	float:right;
+	width:300px;
+	border:1px solid #dcd6db;
+	margin-bottom:10px;
+	margin-top:-6px;
+	}
+.info-table{
+	line-height:35px;
+		font-size:14px;
+		font-family:Arial, Helvetica, sans-serif;
+	
+	
+	}
+.info-table label {
+	line-height:27px;
+		font-size:11px;
+		font-family:Arial, Helvetica, sans-serif;
+		
+	
+	}
+.textes-violets{
+	line-height:20px;
+	color:#442A3F;
+	}
+.connecter{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior:url(js/border-radius.htc);
+	border:1px solid #725B71;
+	background-color:#8e7f94;
+	width:120px;
+	color:#FFF;
+	font-size:12px;
+	padding-top:2px;
+	padding-bottom:4px;
+	}
+.illus-contact{
+	padding-left:15px; 
+	background-image:url(../images/illus-contact.jpg); 
+	background-repeat:no-repeat; 
+	background-position:center;
+	}
+#contact{
+	text-align:center; 
+	width:300px; 
+	padding-left:30px; 
+	margin:auto; 
+	padding-top:85px;
+	}
+.coin-droit-cote{
+	background-position:bottom right; 
+	background-repeat:no-repeat; 
+	background-image:url(../images/panier-coin-droit-cote.jpg)
+	}
+.coin-droit-bas{
+	background-position:top right; 
+	background-repeat:no-repeat; 
+	background-image:url(../images/panier-coin-droit-bas.jpg)
+	}
+.coin-gauche-haut{
+	background-position:top left; 
+	background-repeat:no-repeat; 
+	background-image:url(../images/panier-coin-gauche-haut.jpg)
+	}
+.coin-gauche-cote{
+	background-position:top left; 
+	background-repeat:no-repeat; 
+	background-image:url(../images/panier-coin-gauche-cote.jpg)
+	}
+.panier-code{
+	background-color:#c7b3bf; 
+	border:1px solid #ba9bae; 
+	padding:8px; 
+	font-size:15px; 
+	font-weight:bold; 
+	color:#FFF; 
+	line-height:25px
+	}
+.panier-montant{
+	background-color:#a3929c; 
+	border:1px solid #977e8d; 
+	padding:10px; 
+	font-size:15px; 
+	font-weight:bold; 
+	color:#FFF; 
+	text-align:right;
+	}
+.panier-pense{
+	padding-top:10px; 
+	width:280px; 
+	background-image:url(../images/panier-pensebete.jpg);
+	background-repeat:no-repeat; 
+	background-position:center bottom;
+	}
+#remerciements{
+	padding-bottom:105px; 
+	padding-left:25px; 
+	color:#442b41; 
+	font-size:12px; 
+	line-height:18px;
+	}
+#vernis{
+	padding-bottom:100px; 
+	padding-left:110px; 
+	color:#442b41; 
+	font-size:12px; 
+	line-height:18px;
+	}
+#arbo{
+	width:970px; 
+	margin:auto; 
+	font-size:10px; 
+	color:#000; 
+	line-height:20px;
+	}
+
+
+.declinaisonfamille 
+{
+background-image:url(images2/faire-part-famille.gif);
+width:200px;
+height:200px;
+position:absolute;
+margin-top:-200px;
+margin-left:10px;
+}

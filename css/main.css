@@ -1,0 +1,342 @@
+/*------------------ selectDark -----------------*/
+		
+.selectDark .styleSelect_item{
+		width:160px;
+
+		}
+		
+.selectDark .styleSelect_item_start{
+		height:8px;
+		background:url("../images2/deroul/First.png") no-repeat top left;
+		margin-top:-4px;
+
+		}
+		
+.selectDark .styleSelect_item_content{
+		/*height:140px;*/
+		overflow-x: hidden;
+		overflow-y: scroll;
+		background:#ffffff;
+		border-left:1px solid #b4acb5 ;
+		border-right:1px solid #b4acb5 ;
+		max-height:120px;
+		}
+		
+.selectDark .styleSelect_item_end{
+		height:8px;
+		background:url("../images2/deroul/Last.png") no-repeat top left;
+		}
+
+.selectDark{
+		background: url("../images2/deroul/Background.png") no-repeat top left;
+		font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:24px;
+		
+		}
+
+.selectDark .passiveSelect,.selectDark .activeSelect{
+		height:25px;
+		/*line-height:2em;*/
+		display:block;
+		cursor:pointer;	
+		padding-left:10px;
+		margin-right:0px;
+
+		}
+		
+.selectDark .passiveSelect{
+		background:url("../images2/deroul/Normal.png") no-repeat top right;
+		/*color:#8e7f94;*/
+		color:#735b71;
+		}
+		
+.selectDark .activeSelect{
+		background:url("../images2/deroul/Active.png") no-repeat top right;
+		color:#735b71
+		}
+		
+.selectDark ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+		cursor:pointer;
+		font-size:12px;
+	
+		font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+
+		}
+		
+.selectDark li{
+		padding:0;
+		margin:0;
+			
+		font-weight:normal;
+		padding:0px 0 2px 12px;
+		color:#735b71;
+		font-size:12px;
+		font-family:Quattrocento Sans,Arial, Helvetica, sans-serif;
+		}
+		
+.selectDark li:hover{
+		color:#735b71;
+		}
+		
+.selectDark .selected{
+		color:#735b71;
+		}
+		
+/* --------------------- petit ----------------------------- */
+
+
+
+.selectPetit .styleSelect_item{
+		width:60px;
+
+		}
+		
+.selectPetit .styleSelect_item_start{
+		height:8px;
+		background:url("../images2/deroul/First-petit.png") no-repeat top left;
+		margin-top:-4px;
+
+		}
+		
+.selectPetit .styleSelect_item_content{
+		/*height:140px;*/
+		overflow-x: hidden;
+		overflow-y: scroll;
+		background:#ffffff;
+		border-left:1px solid #b4acb5 ;
+		border-right:1px solid #b4acb5 ;
+		}
+		
+.selectPetit .styleSelect_item_end{
+		height:8px;
+		background:url("../images2/deroul/Last-petit.png") no-repeat top left;
+		}
+
+.selectPetit{
+		background: url("../images2/deroul/Background-petit.png") no-repeat top left;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:11px;
+		}
+
+.selectPetit .passiveSelect,.selectPetit .activeSelect{
+		height:25px;
+		line-height:2em;
+		display:block;
+		cursor:pointer;	
+		padding-left:10px;
+		margin-right:0px;
+
+		}
+		
+.selectPetit .passiveSelect{
+		background:url("../images2/deroul/Normal.png") no-repeat top right;
+		color:#8e7f94;
+		}
+		
+.selectPetit .activeSelect{
+		background:url("../images2/deroul/Active.png") no-repeat top right;
+		color:#725B71;
+		}
+		
+.selectPetit ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+		cursor:pointer;
+
+		}
+		
+.selectPetit li{
+		padding:0;
+		margin:0;
+		font-weight:normal;
+		padding:0px 0 2px 12px;
+		color:#8e7f94;
+		}
+		
+.selectPetit li:hover{
+		color:#715B70;
+		}
+		
+.selectPetit .selected{
+		color: #735B71 ;
+		}
+		
+
+/* --------------------- moyen ----------------------------- */
+
+
+
+.selectmoyen .styleSelect_item{
+		width:82px;
+
+		}
+		
+.selectmoyen .styleSelect_item_start{
+		height:8px;
+		background:url("../images2/deroul/First-moyen.png") no-repeat top left;
+		margin-top:-4px;
+
+		}
+		
+.selectmoyen .styleSelect_item_content{
+		/*height:140px;*/
+		overflow-x: hidden;
+		overflow-y: scroll;
+		background:#ffffff;
+		border-left:1px solid #b4acb5 ;
+		border-right:1px solid #b4acb5 ;
+		}
+		
+.selectmoyen .styleSelect_item_end{
+		height:8px;
+		background:url("../images2/deroul/Last-moyen.png") no-repeat top left;
+		}
+
+.selectmoyen{
+		background: url("../images2/deroul/Background-moyen.png") no-repeat top left;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:11px;
+		}
+
+.selectmoyen .passiveSelect,.selectmoyen .activeSelect{
+		height:25px;
+		line-height:2em;
+		display:block;
+		cursor:pointer;	
+		padding-left:10px;
+		margin-right:0px;
+
+		}
+		
+.selectmoyen .passiveSelect{
+		background:url("../images2/deroul/Normal.png") no-repeat top right;
+		color:#8e7f94;
+		}
+		
+.selectmoyen .activeSelect{
+		background:url("../images2/deroul/Active.png") no-repeat top right;
+		color:#725B71;
+		}
+		
+.selectmoyen ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+		cursor:pointer;
+
+		}
+		
+.selectmoyen li{
+		padding:0;
+		margin:0;
+		font-weight:normal;
+		padding:0px 0 2px 12px;
+		color:#8e7f94;
+		}
+		
+.selectmoyen li:hover{
+		color:#715B70;
+		}
+		
+.selectmoyen .selected{
+		color: #735B71 ;
+		}
+		
+
+/*------------------ selectrose -----------------*/
+		
+.selectrose .styleSelect_item{
+		width:160px;
+
+		}
+		
+.selectrose .styleSelect_item_start{
+		height:8px;
+		background:url("../images2/deroul/First.png") no-repeat top left;
+		margin-top:-4px;
+
+		}
+		
+.selectrose .styleSelect_item_content{
+		/*height:140px;*/
+		overflow-x: hidden;
+		overflow-y: scroll;
+		background:#ffffff;
+		border-left:1px solid #b4acb5 ;
+		border-right:1px solid #b4acb5 ;
+		max-height:100px;
+		}
+		
+.selectrose .styleSelect_item_end{
+		height:8px;
+		background:url("../images2/deroul/Last.png") no-repeat top left;
+		}
+
+.selectrose{
+		background: url("../images2/deroul/Background.png") no-repeat top left;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:11px;
+		}
+
+.selectrose .passiveSelect,.selectrose .activeSelect{
+		height:25px;
+		line-height:2em;
+		display:block;
+		cursor:pointer;	
+		padding-left:10px;
+		margin-right:0px;
+
+		}
+		
+.selectrose .passiveSelect{
+		background:url("../images2/deroul/Normal.png") no-repeat top right;
+		color:#333333;
+		}
+		
+.selectrose .activeSelect{
+		background:url("../images2/deroul/Active.png") no-repeat top right;
+		color:#A82268;
+		font-size:12px;
+		}
+		
+.selectrose ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+		cursor:pointer;
+
+		}
+		
+.selectrose li{
+		padding:0;
+		margin:0;
+		font-weight:normal;
+		padding:0px 0 2px 12px;
+		color:#A82268;
+		}
+		
+.selectrose li:hover{
+		color:#000;
+		}
+		
+.selectrose .selected{
+		color:#A82268;
+		}
+
+/*------------------ otherStyles -----------------*/
+
+.select{
+		/*padding:20px;*/
+		padding-left:5px;
+		padding-right:5px;
+		float:left;
+		}
+
+.clear{
+	clear:both;
+	}
