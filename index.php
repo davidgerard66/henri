@@ -362,7 +362,8 @@ case "societeespagne":
       6/ Demande 036 du NIF (num&eacute;ro de TVA espagnol)  NIF=RCS ou Intracom (3 &agrave; 4 mois sous conditions de respect des conventions UE). <br>
       7/ Enregistrement des statuts au Registre Mercantil de G&eacute;rone (10-15 jours) <br>
       8/ Enregistrement de documents administratifs des associ&eacute;s et de mise en activit&eacute; de la soci&eacute;t&eacute;  (mod&egrave;les  030/ 600/ 036). <br>
-      9/ Demande de &laquo; certificado digital &raquo;aupr&egrave;s des services fiscaux de &laquo; HACIENDA &raquo; 10/ Validation du compte bancaire soci&eacute;t&eacute; enregistr&eacute;e. <br>
+      9/ Demande de &laquo; certificado digital &raquo;aupr&egrave;s des services fiscaux de &laquo; HACIENDA &raquo; <br>
+      10/ Validation du compte bancaire soci&eacute;t&eacute; enregistr&eacute;e. <br>
     </p>
     <p style='color:red'>Nous nous chargeons d'effectuer toutes les d&eacute;marches aupr&egrave;s des diff&eacute;rentes administrations.<br>
     </p>
